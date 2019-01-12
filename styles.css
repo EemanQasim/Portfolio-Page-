@@ -28,7 +28,7 @@ hr {
 h3 {
   padding-right: 700px;
   margin-bottom: 20px;
-  
+
 }
 
 h4 {
@@ -84,4 +84,18 @@ h4 {
   width: 500px;
   float: right;
   margin-right: 20px;
+}
+
+.lastp{
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+
+.btn{
+  margin-top: 20px;
+}
+footer{
+  text-align: center;
 }
