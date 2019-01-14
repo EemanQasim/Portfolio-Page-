@@ -8,13 +8,72 @@ hr {
   width: 30px;
 }
 
+h1{
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+  margin: 0;
+  display: block;
+}
+
+h3{
+  font-size: 1em;
+  line-height: 1em;
+  margin-bottom: 1.5;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+h4{
+  font-size: 1em;
+  line-height: 1em;
+  color: #f5c453;
+  text-transform: uppercase;
+}
+
+p{
+  line-height: 1.5em;
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  font-family: adriane ,Georgia,serif ;
+}
 .intro {
   text-align: center;
   width: 50%;
   margin: 100px auto 100px auto;
-  position: relative;
-  bottom: 70px;
-  top: 10px;
+
+}
+
+.topsection{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgsection{
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profilepic{
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+
+.last{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.midpic{
+  margin-left: 20px;
+}
+
+.botpic{
+  margin-right: 20px;
 }
 
 
@@ -23,4 +82,12 @@ hr {
 }
 footer{
   text-align: center;
+}
+
+.container{
+  max-width: 800px;
+
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
 }
