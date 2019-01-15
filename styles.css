@@ -1,41 +1,49 @@
 body {
   border: solid 1px;
+  background-color:  #cbf1f5;
 }
 
 hr {
   border-top: none;
   border-style: dotted;
   width: 30px;
+  color: #a6e3e9;
+  border-radius: 100%;
 }
 
 h1{
+  font-family: 'Montez', cursive;
   font-size: 1.5em;
   line-height: 1;
   margin-bottom: 1em;
   margin: 0;
   display: block;
+
 }
 
 h3{
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 1em;
   margin-bottom: 1.5;
   font-family: sans-serif;
   font-weight: 700;
+  font-family: 'Montez', cursive;
 }
 
 h4{
-  font-size: 1em;
+  font-family: 'Montez', cursive;
+  font-size: 1.5em;
   line-height: 1em;
-  color: #f5c453;
+
   text-transform: uppercase;
 }
 
 p{
   line-height: 1.5em;
-  font-size: 1em;
+  font-size: 0.8em;
   margin-bottom: 1.5em;
-  font-family: adriane ,Georgia,serif ;
+  font-family: 'Quattrocento', serif;
+  text-transform: uppercase;
 }
 .intro {
   text-align: center;
@@ -66,6 +74,7 @@ p{
 .last{
   text-align: center;
   margin-top: 70px;
+  background-color: #a6e3e9;
 }
 
 .midpic{
@@ -90,4 +99,13 @@ footer{
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
+  background-color: #cbf1f5;
+
+}
+.jumbotron{
+  background-color: #a6e3e9;
+}
+
+.topcont{
+  background-color:  #cbf1f5;
 }
