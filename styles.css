@@ -1,6 +1,6 @@
 body {
   border: solid 2px;
-  background-color:  #fbf9fa;
+  background-color:  white;
 }
 
 hr {
@@ -57,14 +57,14 @@ p{
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
-  background-color: #fbf9fa;
+  background-color: white;
 }
 
 .imgsection{
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fbf9fa;
+  background-color: white;
 }
 
 .profilepic{
@@ -76,8 +76,8 @@ p{
 
 .last{
   text-align: center;
-  margin-top: 70px;
-  background-color:#fbf9fa;
+  margin-top: 20px;
+  background-color:white;
 }
 
 .midpic{
@@ -91,19 +91,20 @@ p{
 
 .btn{
   margin-top: 20px;
+  padding: 10px;
 }
 footer{
   text-align: center;
   color: black;
 }
 
-.container{
+.container-fluid{
   max-width: 800px;
 
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fbf9fa;
+  background-color: white;
   border-radius: 20px;
   position: relative;
   bottom: 90px;
@@ -111,9 +112,16 @@ footer{
 
 }
 .jumbotron{
-  background-color: #fbf9fa;
+  background-color: white;
+  margin-bottom: 10px;
 }
 
 .topcont{
-  background-color: #fbf9fa;
+  background-color: white;
+}
+
+.fab{
+  margin-bottom: 50px;
+
+  padding: 0 20px;
 }
