@@ -1,15 +1,70 @@
 body {
   border: solid 2px;
   background-color:  white;
+
 }
 
-hr {
-  border-top: none;
-  border-style: dotted;
-  width: 30px;
-  color: #ffc4d0;
-  border-radius: 100%;
+.topsection{
+
+  margin:  130px auto 200px;
+  text-align: justify;
+  height: 400px;
+  width: 800px;
 }
+
+.head{
+  width: 600px;
+  text-align: center;
+  margin: 10% auto 5% auto;
+  font-size: 2rem;
+}
+.profilepic{
+  margin: auto auto 80px ;
+  border-radius: 100%;
+  position: relative;
+  left: 300px;
+}
+.top-parag{
+  margin: auto auto 70px;
+}
+    /* top finished */
+
+.mid-section{
+  width: 1000px;
+  margin-bottom: 80px;
+
+}
+
+.boxes {
+  width: 500px;
+  height: 200px;
+}
+
+.midpic{
+  margin-right: 20px;
+}
+
+.botpic{
+  margin-left: 20px;
+  margin-top: 22px;
+}
+
+.midpp{
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1{
   font-family: 'Montez', cursive;
@@ -45,34 +100,6 @@ p{
   font-family: 'Quattrocento', serif;
   text-transform: uppercase;
 }
-.intro {
-  text-align: center;
-  width: 50%;
-  margin: 100px auto 100px auto;
-
-}
-
-.topsection{
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  background-color: white;
-}
-
-.imgsection{
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: white;
-}
-
-.profilepic{
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  border-radius: 100%;
-}
 
 .last{
   text-align: center;
@@ -80,13 +107,7 @@ p{
   background-color:white;
 }
 
-.midpic{
-  margin-left: 20px;
-}
 
-.botpic{
-  margin-right: 20px;
-}
 
 
 .btn{
@@ -98,27 +119,13 @@ footer{
   color: black;
 }
 
-.container-fluid{
-  max-width: 800px;
 
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: white;
-  border-radius: 20px;
-  position: relative;
-  bottom: 90px;
-
-
-}
 .jumbotron{
   background-color: white;
   margin-bottom: 10px;
 }
 
-.topcont{
-  background-color: white;
-}
+
 
 .fab{
   margin-bottom: 50px;
