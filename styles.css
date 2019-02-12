@@ -1,4 +1,74 @@
 
+#brand {
+  border-radius: 100px;
+}
+
+body{
+  border: solid 9px #222831;
+  background-color: #F9F9F9;
+}
+
+
+@media (min-width:576px) { body{
+
+}
+
+}
+
+@media (min-width:768px) {
+  body{
+
+  }
+
+}
+
+@media (min-width:992px) {
+  body{
+
+  }
+
+}
+
+@media (min-width:1200px) {
+  body{
+
+  }
+
+}
+
+
+
+
+
+
+
+h1{
+  font-size: 2em;
+}
+
+h4{
+  font-size: 1em;
+  color: #00ADB5;
+}
+h3{
+  font-size: 1.5em;
+}
+
+p{
+  font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .profilepic{
   border-radius: 100px;
