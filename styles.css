@@ -6,5 +6,15 @@
 
 .profilepic{
   border-radius: 100px;
-  
+
+}
+
+.row-hl{
+  background:#f4f4f4;
+  height:350px;
+
+}
+.item-hl{
+border:1px solid #333;
+width: 100%;
 }
