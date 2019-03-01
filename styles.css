@@ -4,17 +4,13 @@
   border-radius: 100px;
 }
 
-.profilepic{
-  border-radius: 100px;
+.top-section{
+  background:url('images/8547121.jpg') no-repeat center center;
+              background-size:cover;
 
-}
-
-.row-hl{
-  background:#f4f4f4;
-  height:350px;
-
-}
-.item-hl{
-border:1px solid #333;
-width: 100%;
+              /* Workaround for some mobile browsers */
+              min-height:100%;
+              padding-top: 20px;
+              padding-bottom: 20px;
+              height: 500px;
 }
