@@ -14,3 +14,19 @@
               padding-bottom: 20px;
               height: 500px;
 }
+
+h3{
+    font-family: 'Sevillana',cursive;
+    font-size: 80px;}
+
+p{
+font-family: "adobe-garamond-pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+line-height: 1.4;
+}
+
+
+hr{
+  width: 100%;
+  height: 6px;
+  outline: 1px solid #036cdb  ;
+}
