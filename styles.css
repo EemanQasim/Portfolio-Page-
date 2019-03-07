@@ -5,7 +5,7 @@
 }
 
 .top-section{
-  background:url('images/5-08.eps') no-repeat center center;
+  background:url('images/minimal-creative-winter-christmas-tree-lanscape-design-vector.jpg') no-repeat center center;
               background-size:cover;
 
               /* Workaround for some mobile browsers */
@@ -13,14 +13,16 @@
               padding-top: 20px;
               padding-bottom: 20px;
               height: 500px;
+              width: 100%;
 }
 
 h3{
-    
+
     font-size: 2em;
     line-height: 1.1;
     font-weight: 500;
     box-sizing:border-box;
+    text-align: center;
     }
 
 h2{
@@ -35,7 +37,22 @@ font-family: "adobe-garamond-pro","HelveticaNeue-Light","Helvetica Neue Light","
 line-height: 1.4;
 }
 
+.midcont{
+  width: 800px;
+  margin-bottom: 100px;
+}
 
+.dpar{
+  padding-left: 30px;
+}
+.dpar2{
+  padding-left: 24px;
+}
+.midrow{
+
+  margin-top: 6em;
+
+}
 hr{
   width: 10%;
   height: 6px;
@@ -53,6 +70,10 @@ hr{
   height: 58px;
   margin: auto;
   padding-top: 20px;
+}
+
+.foot{
+  background-color: #74C4C5;
 }
 
 p{
