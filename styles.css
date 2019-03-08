@@ -1,9 +1,4 @@
 
-
-#brand{
-  border-radius: 100px;
-}
-
 .top-section{
   background:url('images/minimal-creative-winter-christmas-tree-lanscape-design-vector.jpg') no-repeat center center;
               background-size:cover;
@@ -15,72 +10,67 @@
               height: 500px;
               width: 100%;
 }
+#brand{
+  border-radius: 100px;
+}
+
+/* top section finished */
+
+/* Hello section */
+.hello{
+  max-width: 1922px;
+  max-height: 630px;
+  margin-top: 84px;
+  margin-bottom: 84px;
+}
+
+h1{
+  max-height: 58px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-top:20px;
+  margin-bottom: 10px;
+}
+
+.hellop{
+  max-width: 460px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+
+}
+.artp{
+  max-width: 460px;
+}
+
+container{
+  max-width: 970px;
+}
+
+/* hello section finished */
+
+.midsec{
+  margin: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.artmid{
+  max-width: 940px;
+  max-height: 588px;
+}
+.details{
+  max-width: 440px;
+  max-height: 148px;
+}
 
 h3{
-
-    font-size: 2em;
-    line-height: 1.1;
-    font-weight: 500;
-    box-sizing:border-box;
-    text-align: center;
-    }
-
-h2{
-font-size: 3em;
-font-weight: 400;
-line-height: 1.1;
-box-sizing:border-box;
+  max-width: 412px;
+  max-height: 30px;
+  text-align: left;
 }
 
-p{
-font-family: "adobe-garamond-pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-line-height: 1.4;
-}
-
-.midcont{
-  width: 800px;
-  margin-bottom: 100px;
-}
-
-.dpar{
-  padding-left: 30px;
-}
-.dpar2{
-  padding-left: 24px;
-}
-.midrow{
-
-  margin-top: 6em;
-
-}
-hr{
-  width: 10%;
-  height: 6px;
-  border-style: dotted;
-}
-
-.imgp{
-  background: grey;
-  border-radius: 100px;
-  margin-bottom: 20px;
-}
-
-.ht{
-  width: 460px;
-  height: 58px;
-  margin: auto;
-  padding-top: 20px;
-}
-
-.foot{
-  background-color: #74C4C5;
-}
-
-p{
-  width: 460px;
-  height:58px;
-  margin: auto;
-  font-weight: 300;
-  font-size: 1em;
-  box-sizing: border-box;
+.midpara{
+  max-width: 412px;
+  max-height: 90px;
+  text-align: left;
 }
