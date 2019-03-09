@@ -52,25 +52,88 @@ container{
   margin: auto;
   padding-right: 15px;
   padding-left: 15px;
+  height: 630px;
 }
 
 .artmid{
   max-width: 940px;
-  max-height: 588px;
+  max-height:  588px;
 }
 .details{
   max-width: 440px;
   max-height: 148px;
+  padding-left: 28px;
 }
 
-h3{
+.mid3{
   max-width: 412px;
-  max-height: 30px;
-  text-align: left;
+  max-height: 58px;
+  text-align: center;
+  padding-bottom: 20px;
 }
+
+h2{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 58px;
+}
+
 
 .midpara{
   max-width: 412px;
   max-height: 90px;
-  text-align: left;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.devpar{
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+.devpartwo{
+  margin-top: 42px;
+  margin-bottom: 84px;
+}
+
+.contactp{
+  padding-top: 42px;
+  padding-bottom: 112px;
+  text-align: center;
+}
+
+.artbt{
+  max-width: 600px;
+  margin:0 auto;
+
+}
+.botcon{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.hid{
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+.botp{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.last3{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 28px;
+}
+
+.last2{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.breaker{
+  margin: 0 auto;
+  max-width: 100px;
+  height: 6px;
 }
