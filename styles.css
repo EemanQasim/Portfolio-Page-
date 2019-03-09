@@ -1,14 +1,11 @@
 
+body{
+  background-color: #F9F9F9;
+}
 .top-section{
-  background:url('images/minimal-creative-winter-christmas-tree-lanscape-design-vector.jpg') no-repeat center center;
-              background-size:cover;
+  background-color: #393E46;
+  background-size: cover;
 
-              /* Workaround for some mobile browsers */
-              min-height:100%;
-              padding-top: 20px;
-              padding-bottom: 20px;
-              height: 500px;
-              width: 100%;
 }
 #brand{
   border-radius: 100px;
@@ -22,16 +19,25 @@
   max-height: 630px;
   margin-top: 84px;
   margin-bottom: 84px;
+
 }
 
+p{
+    color: #393E46;
+}
 h1{
   max-height: 58px;
   padding-top: 14px;
   padding-bottom: 14px;
   margin-top:20px;
   margin-bottom: 10px;
+  color: #45B29A;
 }
 
+.imgp{
+  border-radius: 100px;
+
+}
 .hellop{
   max-width: 460px;
   box-sizing: border-box;
@@ -76,6 +82,11 @@ h2{
   margin-top: 20px;
   margin-bottom: 10px;
   height: 58px;
+    color: #45B29A;
+}
+
+h3{
+    color: #45B29A;
 }
 
 
@@ -111,6 +122,7 @@ h2{
 .botcon{
   padding-left: 15px;
   padding-right: 15px;
+
 }
 .hid{
   padding-top: 28px;
@@ -136,4 +148,40 @@ h2{
   margin: 0 auto;
   max-width: 100px;
   height: 6px;
+}
+
+.futb{
+  background-color: #393E46;
+  background-size: cover;
+  color: white;
+  margin-top: 20px;
+  height: 169px;
+  width: 1144px;
+}
+
+.botr{
+  height: 30px;
+}
+.lend{
+  width: 600px;
+  height: 30px;
+  margin-top: 30px;
+}
+
+.itm{
+  width: 150px;
+  height: 30px;
+}
+
+.futrw{
+  width: 970px;
+  height: 55px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.lastp{
+  width: 940px;
+  height: 55px;
+  color: #F6AE06;
 }
