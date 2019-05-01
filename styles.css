@@ -3,9 +3,10 @@
   box-sizing: border-box;
 
 }
+
 .top-section{
   height: 600px;
-  background-image: linear-gradient(to top, grey,white);
+  background-image:linear-gradient(to top, grey,white);
   background-size: cover;
   background-repeat: no-repeat;
   color: black;
@@ -36,17 +37,21 @@
 .mid{
   display: flex;
   flex-wrap: wrap;
-
   margin: 0 auto;
 }
 
-.box{
+
+.mainbox{
   width: 50%;
-  background-color: red;
+  margin: 20px 0;
+  background-image: radial-gradient(to top, black,white);
 }
+
 .box2{
   width: 50%;
-  background-color: blue;
+  background-image: radial-gradient( to top, black,white);
+  margin: 20px 0;
+  text-align: center;
 }
 
 .bodypic{
@@ -54,15 +59,18 @@
   width: 150px;
   height: 150px;
   border: 1px dotted black;
+  margin: 0 auto;
+  display: block;
 }
 
 
 @media screen and (max-width:500px){
-         .box{
+         .mainbox{
            width: 100%;
          }
          .box2{
            width: 100%;
          }
+
 
 }
