@@ -26,20 +26,31 @@
   border: 1px solid black;
 }
 
+header{
+  text-align:center;
+  margin: 10px 0 10px 0;
+
+}
+
+
+
 /* Top section finished */
 
 /* Mid Section  */
 
 .line{
 
-  width: 10%;
-  border-top: 1px dotted black;
+  width: 5%;
+  border-top: 5px dotted black;
+ margin: 70px 50% 70px 50% ;
 
 }
 .mid{
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  text-align: center;
+
 }
 
 
