@@ -13,10 +13,12 @@
 }
 
 .profilepic{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  border: 1px dotted black;
   margin: 0 auto;
   display: block;
-  border-radius: 100%;
-  border: 1px solid black;
 }
 
 .smallpic{
@@ -52,6 +54,7 @@
   background-image: radial-gradient( to top, black,white);
   margin: 20px 0;
   text-align: center;
+  margin-top: 40px;
 }
 
 .bodypic{
@@ -64,12 +67,15 @@
 }
 
 
+
+
 @media screen and (max-width:500px){
          .mainbox{
            width: 100%;
          }
          .box2{
            width: 100%;
+           order: 1;
          }
 
 
