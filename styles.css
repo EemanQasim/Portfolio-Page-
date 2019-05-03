@@ -4,9 +4,14 @@
 
 }
 
+.profilepic,.smallpic,.toppic,.mid,.bodypic,.bodypic2,.skillImage,.skillImage2 {
+  box-shadow: -12px 3px 5px 0px rgba(0,0,0,0.75);
+/* rgba(0,0,0,0.75) */
+}
+
 .top-section{
   height: 600px;
-  background-image:linear-gradient(to top, grey,white);
+  background-image:linear-gradient(to top, #E7E8EB,#74C4C5);
   background-size: cover;
   background-repeat: no-repeat;
   color: black;
@@ -19,16 +24,22 @@
   border: 1px dotted black;
   margin: 0 auto;
   display: block;
+
 }
 
 .smallpic{
   border-radius: 100%;
   border: 1px solid black;
+
 }
 
 header{
   text-align:center;
   margin: 10px 0 10px 0;
+  font-size: 30px;
+  text-shadow: 9px 10px 9px rgba(0, 0, 0, 0.4) ;
+  /* rgba(0, 0, 0, 0.4) */
+
 
 }
 .toppic{
@@ -38,8 +49,14 @@ header{
   border: 1px dotted black;
   margin: 0 auto;
   display: block;
+
 }
 
+.mainpara{
+ width: 50%;
+ margin: 0 auto;
+ text-align: center;
+}
 
 /* Top section finished */
 
@@ -57,6 +74,9 @@ header{
   flex-wrap: wrap;
   margin: 0 auto;
   text-align: center;
+  border-top: 1px solid #EDEFEE;
+  border-bottom: 1px solid #EDEFEE;
+
 
 }
 
@@ -64,6 +84,8 @@ header{
 .mainbox{
   width: 50%;
   margin: 20px 0;
+  border-right: 1px solid #EDEFEE;
+  border-left: 1px solid #EDEFEE;
 
 }
 
@@ -74,6 +96,10 @@ header{
   margin-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
+  border-right: 1px solid #EDEFEE;
+    border-left: 1px solid #EDEFEE;
+
+
 }
 
 .bodypic{
@@ -85,6 +111,7 @@ header{
   position: relative;
   right: -10px;
   top: 30px;
+
 }
 
 
@@ -97,6 +124,7 @@ header{
   position: relative;
   left: 5px;
   bottom: 30px;
+
 
 }
 
@@ -112,6 +140,7 @@ header{
   bottom: 50px;
   left: 80px;
   border: 1px dotted black;
+
 }
 
 .skillImage2{
@@ -121,30 +150,58 @@ header{
   position: relative;
   top: 60px;
   left: 80px;
-  border: 1px dotted black;
+  border: 1px dotted ;
+  border-color: #E7E8EB;
+
+}
+
+.connectline{
+  width: 30%;
+  display: flex;
 }
 
 
 
-@media screen and (max-width:541px){
+@media screen and (max-width:500px){
          .mainbox{
            width: 100%;
+            margin: 5px 0;
+
          }
          .box2{
            width: 100%;
            order: 1;
+           margin: 5px 0;
+
          }
-header{
-  font-size: 30px;
-}
+
+         .mid{
+           border-top: 1px solid #EDEFEE;
+           border-bottom: 1px solid #EDEFEE;
+
+
+         }
+
+
 
 }
+
+.container{
+  max-width: 800px;
+  border-right: 1px solid #EDEFEE;
+  border-left: 1px solid #EDEFEE;
+
+
+
+}
+
+
 
 /* Mid section finished */
 
 .footer{
   width: 100%;
-  background-image: linear-gradient( to bottom, white,grey);
+  background-image: linear-gradient( to right, #E7E8EB,#74C4C5);
   height: 300px;
 }
 
