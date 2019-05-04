@@ -8,6 +8,23 @@
   box-shadow: -12px 3px 5px 0px rgba(0,0,0,0.75);
 /* rgba(0,0,0,0.75) */
 }
+h3{
+font-family: 'Tangerine', cursive;
+font-size: 48px;
+text-shadow: 4px 4px 4px #aaa;}
+
+h2,h4{
+  font-family: 'Merriweather', serif;
+font-weight:bold;
+font-size: 25px;
+
+}
+
+  p{
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    font-size: 16px;
+  }
 
 .top-section{
   height: 600px;
@@ -36,9 +53,10 @@
 header{
   text-align:center;
   margin: 10px 0 10px 0;
-  font-size: 30px;
-  text-shadow: 9px 10px 9px rgba(0, 0, 0, 0.4) ;
-  /* rgba(0, 0, 0, 0.4) */
+  font-size: 40px;
+  font-family: 'Tangerine', cursive;
+  text-shadow: 4px 4px 4px #aaa;
+
 
 
 }
@@ -63,10 +81,15 @@ header{
 /* Mid Section  */
 
 .line{
-
-  width: 5%;
+  height: 30px;
+    border-style: solid;
+    border-color: #8c8b8b;
+    border-width: 1px 0 0 0;
+    border-radius: 20px; 
+  /* width: 5%;
   border-top: 5px dotted black;
- margin: 70px 50% 70px 50% ;
+ margin: 70px 50% 70px 50% ; */
+
 
 }
 .mid{
@@ -188,8 +211,7 @@ header{
 
 .container{
   max-width: 800px;
-  border-right: 1px solid #EDEFEE;
-  border-left: 1px solid #EDEFEE;
+
 
 
 
@@ -231,4 +253,12 @@ text-align: center;
 .space{
   margin: 30px 0;
   text-align:center;
+}
+
+span{
+  text-decoration: underline;
+}
+.fab {
+  color: rgb(69, 178, 154);
+  font-size: 43px;
 }
