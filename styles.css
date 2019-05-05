@@ -8,12 +8,12 @@
   box-shadow: -12px 3px 5px 0px rgba(0,0,0,0.75);
 /* rgba(0,0,0,0.75) */
 }
-h3{
-font-family: 'Tangerine', cursive;
+h1{
+font-family: 'Tangerine', serif;
 font-size: 48px;
-text-shadow: 4px 4px 4px #aaa;}
+}
 
-h2,h4{
+h2,h4,h3{
   font-family: 'Merriweather', serif;
 font-weight:bold;
 font-size: 25px;
@@ -53,9 +53,10 @@ font-size: 25px;
 header{
   text-align:center;
   margin: 10px 0 10px 0;
-  font-size: 40px;
-  font-family: 'Tangerine', cursive;
-  text-shadow: 4px 4px 4px #aaa;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+
 
 
 
@@ -85,7 +86,7 @@ header{
     border-style: solid;
     border-color: #8c8b8b;
     border-width: 1px 0 0 0;
-    border-radius: 20px; 
+    border-radius: 20px;
   /* width: 5%;
   border-top: 5px dotted black;
  margin: 70px 50% 70px 50% ; */
