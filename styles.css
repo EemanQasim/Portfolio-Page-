@@ -38,8 +38,9 @@ color: #4AB19A;
 
 .top-section{
   height: 600px;
-  background-image:linear-gradient(to top, #E0EBE8,#E0EBE8);
-  background-size: cover;
+  background-image:linear-gradient(to top, #E0EBE8,#E0EBE8); 
+  /* linear-gradient(to top, #E0EBE8,#E0EBE8) */
+  background-size:cover;
   background-repeat: no-repeat;
   color: #545454;
 }
