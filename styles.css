@@ -7,17 +7,17 @@
 h1{
 font-family: cursive;
 font-size: 48px;
-color: #4AB49D;
+color: #fff7f7;
 }
 
 h5 {
-  color: #4AB49D;
+  color: #fff7f7;
   font-family: 'Merriweather', serif;
   font-size: 15px;
 
 }
 h2,h4{
-  color: #1E836C;
+  color: #393e46;
   font-family: 'Merriweather', serif;
 }
 
@@ -25,7 +25,7 @@ h3{
 font-family: 'Merriweather', serif;
 font-weight: bold;
 font-size: 25px;
-color: #4AB19A;
+color: #fff7f7;
 
 }
 
@@ -38,7 +38,7 @@ color: #4AB19A;
 
 .top-section{
   height: 600px;
-  background-image:linear-gradient(to top, #E0EBE8,#E0EBE8); 
+  background-image:linear-gradient(to top, #393e46, #393e46);
   /* linear-gradient(to top, #E0EBE8,#E0EBE8) */
   background-size:cover;
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@ color: #4AB19A;
   border-radius: 100%;
   width: 200px;
   height: 200px;
-  border: 1px solid #4AB49D;
+  border: 1px solid #393e46;
   margin: 0 auto;
   display: block;
 
@@ -68,7 +68,7 @@ header{
   font-size: 20px;
   font-weight: bold;
   font-family: 'Merriweather', serif;
-  color:#4AB19A;
+  color:#393e46;
 
 
 
@@ -224,7 +224,7 @@ header{
 
 .footer{
   width: 100%;
-  background-image: linear-gradient( to right, #C5DED7,#C5DED7);
+  background-image: linear-gradient(to right, #393e46, #393e46);
   height: 300px;
 }
 
@@ -258,9 +258,10 @@ text-align: center;
 
 span{
   text-decoration: underline;
+  color: #fff7f7;
 }
 .fab {
-  color: rgb(69, 178, 154);
+  color: rgb(#fff7f7);
   font-size: 43px;
 }
 
