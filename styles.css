@@ -260,7 +260,7 @@ span{
   text-decoration: underline;
   color: #fff7f7;
 }
-.fab {
+.fab , .fa {
   color: rgb(#fff7f7);
   font-size: 43px;
 }
