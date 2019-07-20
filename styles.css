@@ -3,7 +3,7 @@
 }
 
 body {
-  border: 5px solid #F9F9F9;
+  border: 5px solid black;
 }
 
 h1 {
@@ -11,6 +11,8 @@ h1 {
   font-size: 48px;
   color: #F9F9F9;
   font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h5 {
