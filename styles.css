@@ -1,35 +1,57 @@
+
+/* keyframes */
+.scale-in-center{-webkit-animation:scale-in-center .9s cubic-bezier(.47,0.000,.745,.715) both;animation:scale-in-center .9s cubic-bezier(.47,0.000,.745,.715) both}
+@-webkit-keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
+
+.tracking-in-expand{-webkit-animation:tracking-in-expand .7s linear both;animation:tracking-in-expand .7s linear both}
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+
+.jello-horizontal{-webkit-animation:jello-horizontal .9s both;animation:jello-horizontal .9s both}
+@-webkit-keyframes jello-horizontal{0%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}@keyframes jello-horizontal{0%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
+
+
+
+
+
+
+
+
+
+
+
+
+
 * {
   box-sizing: border-box;
 }
 
-body {
-  border: 5px solid black;
-}
+
 
 h1 {
   font-family: cursive;
   font-size: 48px;
-  color: #F9F9F9;
+  color: #e0fafd;
   font-weight: bolder;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 h5 {
-  color: #F9F9F9;
+  color: whitesmoke;
   font-family: 'Merriweather', serif;
   font-size: 15px;
 }
 
 h2 {
-  color: #1E836C;
+  color: #2cd6df;
   font-family: 'Merriweather', serif;
   font-weight: bolder;
   font-size: 25px;
 }
 
 h4 {
-  color: #228B22;
+  color: #2583f9;
   font-size: 20px;
   font-family: 'Merriweather', serif;
 }
@@ -38,7 +60,7 @@ h3 {
   font-family: 'Merriweather', serif;
   font-weight: bolder;
   font-size: 25px;
-  color: #45B29A;
+  color: #2583f9;
 }
 
 p {
@@ -52,7 +74,7 @@ p {
   height: 600px;
   /* background-image: linear-gradient(to bottom, purple, #FFD700); */
   /* linear-gradient(to top, #E0EBE8,#E0EBE8) */
-  background-color: #3E9C87;
+  background-color:#2583f9;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -63,14 +85,14 @@ p {
   border-radius: 100%;
   width: 200px;
   height: 200px;
-  border: 1px solid #F9F9F9;
+  border: 1px solid #2583f9;
   margin: 0 auto;
   display: block;
 }
 
 .smallpic {
   border-radius: 100%;
-  border: 1px solid #4AB49D;
+  border: 1px solid #2583f9;
 }
 
 header {
@@ -79,14 +101,14 @@ header {
   font-size: 20px;
   font-weight: bold;
   font-family: 'Merriweather', serif;
-  color: #45B29A;
+  color: #2583f9;
 }
 
 .toppic {
   border-radius: 100%;
   width: 150px;
   height: 150px;
-  border: 1px solid #4AB49D;
+  border: 1px solid #2583f9;
   margin: 0 auto;
   display: block;
 }
@@ -98,6 +120,7 @@ header {
   color: #545454;
 }
 
+
 /* Top section finished */
 
 /* Mid Section  */
@@ -105,7 +128,7 @@ header {
 .line {
   height: 30px;
   border-style: solid;
-  border-color: #3E9C87;
+  border-color: #2583f9;
   border-width: 1px 0 0 0;
   border-radius: 20px;
   /* width: 5%;
@@ -137,7 +160,7 @@ header {
   border-radius: 100%;
   width: 100px;
   height: 100px;
-  border: 1px solid #4AB49D;
+  border: 1px solid #2583f9;
   display: block;
   position: relative;
   right: -10px;
@@ -148,7 +171,7 @@ header {
   border-radius: 100%;
   width: 100px;
   height: 100px;
-  border: 1px solid #4AB49D;
+  border: 1px solid #2583f9;
   display: block;
   position: relative;
   left: 5px;
@@ -166,8 +189,8 @@ header {
   position: relative;
   bottom: 50px;
   left: 80px;
-  border: 1px solid #00ADB5;
-  border-color: #00ADB5;
+  border: 1px solid #2583f9;
+  border-color: #2583f9;
 }
 
 .skillImage2 {
@@ -178,7 +201,7 @@ header {
   top: 60px;
   left: 80px;
   /* border: 1px solid #00ADB5; */
-  border-color: #00ADB5;
+  border-color: #2583f9;
 }
 
 .connectline {
@@ -196,8 +219,8 @@ header {
     order: 1;
     margin: 5px 0;
   }
- 
- 
+
+
   .btn {
     width: 100%;
   }
@@ -215,7 +238,7 @@ header {
 .footer {
   width: 100%;
   /* background-image: linear-gradient(to top, purple, gold); */
-  background-color: #3E9C87;
+  background-color: #2583f9;
   height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -260,5 +283,5 @@ span {
 }
 
 .btn {
-  background-color: #3E9C87;
+  background-color: #2583f9;
 }
