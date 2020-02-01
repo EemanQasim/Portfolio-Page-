@@ -242,16 +242,16 @@ header {
 
 /* Top section finished */
 /* Mid Section  */
-.line {
-  height: 30px;
+/* .line {
+  /* height: 30px;
   border-style: solid;
   border-color: #2583f9;
   border-width: 3px 0 0 0;
-  border-radius: 20px;
+  border-radius: 20px; */
   /* width: 5%;
   border-top: 5px dotted black;
  margin: 70px 50% 70px 50% ; */
-}
+} */
 
 .mid {
   display: flex;
