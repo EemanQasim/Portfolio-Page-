@@ -1,0 +1,21 @@
+:root {
+ --dark-primary-color : #0097a7;
+ --default-primary-color : #00bcd4;
+ --light-primary-color : #b2ebf2;
+ --text-primary-color : #ffffff;
+ --accent-color : #ffc107;
+ --primary-text-color: #212121;
+ --secondary-text-color : #757575;
+ --divider-border-color : #BDBDBD;
+}
+
+
+body{
+  box-sizing: border-box;
+  background: linear-gradient(#0097a7 50%, #00bcd4 50%);
+}
+
+img{
+  max-width:100%;
+  height:auto;
+}
