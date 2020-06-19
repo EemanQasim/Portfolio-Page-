@@ -1,74 +1,145 @@
 :root {
- --dark-primary-color : #0097a7;
- --default-primary-color : #00bcd4;
- --light-primary-color : #b2ebf2;
- --text-primary-color : #ffffff;
- --accent-color : #ffc107;
- --primary-text-color: #212121;
- --secondary-text-color : #757575;
- --divider-border-color : #BDBDBD;
+  --dark-primary-color: #0097a7;
+  --default-primary-color: #00bcd4;
+  --light-primary-color: #b2ebf2;
+  --text-primary-color: #ffffff;
+  --accent-color: #ffc107;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --divider-border-color: #BDBDBD;
 }
 
-img{
-  max-width:100%;
-  height:auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-body{
+body {
+  margin: 0;
+}
+
+* {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
 
-h1{
-  font-family: 'Roboto', sans-serif;
-}
-
-.main{
-  margin: 0 auto;
-  border : 1px solid black;
-  width:100%;
-}
-
---------------------------Global End --------------------------------
-
-nav{
-  background-color:#0097a7;
-  color:#212121;
-  font-family: 'Roboto', sans-serif;
+/* Global Styles End */
+header {
+  background-color: #b2ebf2;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #757575;
+  display: flex;
+  flex-direction: column;
 }
 
 ul {
-  display:flex;
+  margin: 0;
+  display: flex;
   flex: 1 1 0;
-  list-style:none; 
-  padding:0;
+  box-shadow: 10px 5px 10px #BDBDBD;
+  padding: 10px;
+  list-style: none;
+  flex-wrap: wrap;
 }
-.crumb{
-  margin-left :auto;
-}
+
 li {
-  margin:5px;
-  color:black;
+  padding: 5px;
+  margin: 2px;
 }
 
-a:hover {
-  border:;
-  box-shadow: 10px 5px 20px #BDBDBD ;
-  text-decoration: none;
+.Intro {
+  display: flex;
+  flex: 1 1 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px 0 30px;
 }
 
----------------------------Nav End ---------------------------------
+.profilePic {
+  width: 90%;
+  height: auto;
+  border: 1px solid white;
+  box-shadow: 5px 10px 10px #BDBDBD;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
 
-.about , .project , .skills{
+figure {
+  width: 300px;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+/* main part start */
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#ffffff, #0097a7);
+  margin: 0 auto;
   border: 1px solid red;
-  margin :5px
 }
 
-.imgOfSkill:hover {
-  width:300px;
-  height:300px;
-  background-color:black;
-  border-radius:100%;
-  box-shadow: 10px 10px 15px blue;
+.skills, .skills2 , .contact {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 80%;
+  heigh:50%;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
+.skills h1, h2, p {
+  text-align: center;
+  border: 1px solid blue;
+  padding: 10px;
+  width: 60%;
+  margin: 10px auto;
+}
+
+h1 {
+  text-align: center;
+  border: 1px solid blue;
+  padding: 10px;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.htm, .cs {
+  display: flex;
+  border: 1px solid orange;
+  padding: 5px;
+  width: 80%;
+  margin: 5px auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skillImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  box-shadow: 10px 5px 5px ;
+}
+
+.cs .skillImg{
+  order:1;
+  padding-right: 15px;
+}
+
+
+footer{
+  background: linear-gradient(#212121,#ffffff);
+  width: 100%;
+  height: 300px;
+}
