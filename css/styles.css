@@ -63,11 +63,19 @@ li {
   width: 90%;
   height: auto;
   border: 1px solid white;
-  box-shadow: 5px 10px 10px #BDBDBD;
+  /* box-shadow: 5px 10px 10px #BDBDBD; */
   border-radius: 100%;
   margin: 0 auto;
   padding: 10px;
+  transition: all 3s ease-out;
 }
+
+.profilePic:hover{
+background-color:  #ffffff;
+box-shadow: 5px 10px 10px #0097a7;
+transform: rotate(10deg);
+}
+
 
 figure {
   width: 300px;
@@ -88,15 +96,15 @@ figcaption{
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(#ffffff, #0097a7);
+  /* background: linear-gradient(#ffffff, #0097a7); */
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .skills, .skills2 , .contact {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 80%;
   heigh:50%;
   margin: 0 auto;
@@ -105,23 +113,46 @@ figcaption{
 
 .skills h1, h2, p {
   text-align: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding: 10px;
   width: 60%;
   margin: 10px auto;
 }
 
+
+h1:hover{
+  transform: scale(1.2);
+}
+
 h1 {
+  transition: all 2s ease-out;
   text-align: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding: 10px;
   width: 50%;
   margin: 10px auto;
+  animation: 2s;
+  animation-name: slidein;
+  animation-timing-function: ease-in;
 }
+
+@keyframes slidein {
+  from{
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
 
 .htm, .cs {
   display: flex;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   padding: 5px;
   width: 80%;
   margin: 5px auto;
@@ -134,12 +165,39 @@ h1 {
   width: 200px;
   height: 200px;
   border-radius: 100%;
+  /* box-shadow: 10px 5px 5px ; */
+  transition: all 2s ease-in;
+}
+
+.skillImg:hover{
   box-shadow: 10px 5px 5px ;
+  transform:rotateX(20deg);
 }
 
 .cs .skillImg{
   order:1;
   padding-right: 15px;
+
+}
+
+button{
+  background-color: #0097a7;
+  color:  #ffffff;
+  border-radius: 10px;
+  height: 40px;
+  width: 50%;
+  margin: 0 auto;
+  /* box-shadow: 5px 5px 5px #BDBDBD; */
+  transition: all 2s ease-in;
+
+
+}
+
+
+button:hover{
+ box-shadow: 5px 5px 5px #BDBDBD;
+ background-color: #757575;
+
 }
 
 /* -----------------------Footer---------------------------- */
