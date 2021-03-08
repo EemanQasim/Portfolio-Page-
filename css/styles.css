@@ -1,12 +1,10 @@
 :root {
-  --dark-primary-color: #0097a7;
-  --default-primary-color: #00bcd4;
-  --light-primary-color: #b2ebf2;
-  --text-primary-color: #ffffff;
-  --accent-color: #ffc107;
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --divider-border-color: #BDBDBD;
+  --secondary-primary-color: #00adb5;
+  --background-primary-color: #eeeeee;
+  --header-text-color: #222831;
+  --accent-color: #00adb5;
+  --body-text-color: #393e46;
+  --border-color: #393e46;
 }
 
 img {
@@ -16,32 +14,38 @@ img {
 
 body {
   margin: 0;
+  background-color: var(--background-primary-color);
+}
+html {
+  box-sizing: border-box;
 }
 
-* {
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Global Styles End */
-header {
-  background-color: #b2ebf2;
+.masthead {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   margin: 0;
   padding: 0;
-  color: #757575;
-  display: flex;
-  flex-direction: column;
+  color: var(--header-text-color);
+  background-color: var(--accent-color);
 }
 
 ul {
-  margin: 0;
   display: flex;
   flex: 1 1 0;
-  box-shadow: 10px 5px 10px #BDBDBD;
-  padding: 10px;
-  list-style: none;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 10px;
+  box-shadow: 10px 5px 10px var(--header-text-color);
+  list-style: none;
 }
 
 li {
@@ -51,83 +55,77 @@ li {
 
 .Intro {
   display: flex;
-/* flex: 1 1 0; */
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin: 30px 30px 0 30px; */
 }
 
 .profilePic {
   width: 90%;
   height: auto;
-  border: 1px solid white;
-  /* box-shadow: 5px 10px 10px #BDBDBD; */
+  border: 1px solid var(--border-color);
   border-radius: 100%;
   margin: 0 auto;
   padding: 10px;
   transition: all 3s ease-out;
 }
 
-.profilePic:hover{
-background-color:  #ffffff;
-box-shadow: 5px 10px 10px #0097a7;
-transform: rotate(10deg);
+.profilePic:hover {
+  /* background-color: var(--light-primary-color); */
+  box-shadow: 5px 10px 10px var(---accent-color);
 }
-
 
 figure {
-  width: 300px;
   display: flex;
-  flex-direction: column;
   flex: 1 1 auto;
+  flex-direction: column;
+  width: 300px;
 }
 
-figcaption{
-  margin:3px;
+figcaption {
+  margin: 3px;
 }
 
-.Info{
+.Info {
   margin-left: auto;
 }
+
 /* main part start */
 .main {
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* background: linear-gradient(#ffffff, #0097a7); */
   margin: 0 auto;
-  /* border: 1px solid red; */
 }
 
-.skills, .skills2 , .contact {
+.skills,
+.skills2,
+.contact {
   display: flex;
   flex-direction: column;
-  /* border: 1px solid black; */
   width: 80%;
-  heigh:50%;
+  height: 50%;
   margin: 0 auto;
   margin-top: 15px;
 }
 
-.skills h1, h2, p {
+.skills h1,
+h2,
+p {
   text-align: center;
-  /* border: 1px solid blue; */
   padding: 10px;
   width: 60%;
   margin: 10px auto;
 }
 
-
-h1:hover{
+h1:hover {
   transform: scale(1.2);
 }
 
 h1 {
   transition: all 2s ease-out;
   text-align: center;
-  /* border: 1px solid blue; */
   padding: 10px;
   width: 50%;
   margin: 10px auto;
@@ -137,22 +135,20 @@ h1 {
 }
 
 @keyframes slidein {
-  from{
+  from {
     margin-left: 100%;
     width: 100%;
   }
 
-  to{
+  to {
     margin-left: 0%;
     width: 100%;
   }
 }
 
-
-
-.htm, .cs {
+.htm,
+.cs {
   display: flex;
-  /* border: 1px solid orange; */
   padding: 5px;
   width: 80%;
   margin: 5px auto;
@@ -165,45 +161,38 @@ h1 {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  /* box-shadow: 10px 5px 5px ; */
   transition: all 2s ease-in;
 }
 
-.skillImg:hover{
-  box-shadow: 10px 5px 5px ;
-  transform:rotateX(20deg);
+.skillImg:hover {
+  box-shadow: 10px 5px 5px;
+  transform: rotateX(20deg);
 }
 
-.cs .skillImg{
-  order:1;
+.cs .skillImg {
+  order: 1;
   padding-right: 15px;
-
 }
 
-button{
-  background-color: #0097a7;
-  color:  #ffffff;
+button {
+  background-color: var(--header-text-color);
+  color: var(--background-primary-color);
   border-radius: 10px;
   height: 40px;
   width: 50%;
   margin: 0 auto;
-  /* box-shadow: 5px 5px 5px #BDBDBD; */
   transition: all 2s ease-in;
-
-
 }
 
-
-button:hover{
- box-shadow: 5px 5px 5px #BDBDBD;
- background-color: #757575;
-
+button:hover {
+  box-shadow: 5px 5px 5px var(--divider-border-color);
+  background-color: var(--light-primary-color);
 }
 
 /* -----------------------Footer---------------------------- */
 
-footer{
-  background: linear-gradient(#ffffff,#0097a7);
+footer {
+  background: var(--accent-color);
   width: 100%;
   height: 300px;
   display: flex;
@@ -213,7 +202,6 @@ footer{
 
 footer ul li {
   margin-top: 15px;
-
 }
 
 footer ul {
@@ -223,3 +211,5 @@ footer ul {
   display: flex;
   margin: 5px;
 }
+
+/* End of Style Sheet */

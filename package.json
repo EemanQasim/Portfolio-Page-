@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-page-",
+  "version": "1.0.0",
+  "description": "Refactoring",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YusufQasim/Portfolio-Page-.git"
+  },
+  "author": "Emmnauel Mangisi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YusufQasim/Portfolio-Page-/issues"
+  },
+  "homepage": "https://github.com/YusufQasim/Portfolio-Page-#readme",
+  "devDependencies": {
+    "stylelint": "^13.11.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "prettier": "2.2.1",
+    "prettier-stylelint": "^0.4.2"
+  }
+}
